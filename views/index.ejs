@@ -2,11 +2,27 @@
 <html>
   <head>
     <title><%= title %></title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'></script>
-    <script src='/javascripts/app.js'></script>
+
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
-  <body>
-    <div id="particles-js"></div>
+  <body>   
+    <div class="particles-header">
+      <div id="scene">
+          <div class="header-content" data-depth="0.2">
+              <!-- <h1 class="title">Join a network of driven e-commerce experts</h1>
+              <p class="subhead">lorem ipsum dolor</p>
+              <button class="cta-main">Join Now</button> -->
+          </div>
+          <div id="particles-js"></div>
+          <!-- <div data-depth="1.5" class="content"></div>       -->
+      </div>  
+    </div>
   </body>
+  <script src='/javascripts/app.js'></script>
 </html>
