@@ -1,7 +1,7 @@
 {
     "particles": {
       "number": {
-        "value": 300,
+        "value": 200,
         "density": {
           "enable": true,
           "value_area": 400
@@ -88,11 +88,11 @@
           }
         },
         "bubble": {
-          "distance": 200,
+          "distance": 100,
           "size": 40,
           "duration": 4,
-          "opacity": 0.5,
-          "speed": 5
+          "opacity": 0.2,
+          "speed": 1
         },
         "repulse": {
           "distance": 50,

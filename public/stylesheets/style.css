@@ -5,14 +5,13 @@ body {
 }
 
 /* PARTICLES */
-.particles-header #particles-js {
+#particles-js {
   background-color: #ead646;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -2;
   display: block;
 }
 
@@ -68,6 +67,7 @@ body {
 
 .particles-header .header-content {
   margin-top: 30px;
+  z-index: 99999;
 }
 /* PARTICLES */
 
@@ -82,4 +82,5 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
+  z-index: 20;
 }
